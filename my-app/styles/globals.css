@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color-scheme: dark light;
+}
+
+:root.light{
+  color-scheme:light;
+}
+:root.dark{
+  color-scheme:dark;
+}
+
